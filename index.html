@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>じゃんけんアプリ</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ここにはhtmlを記述 -->
+    <header>
+      <h1>じゃんけんアプリ</h1>
+    </header>
+      <p class="vs">じぶん  :   あいて</p>
+      <div class="score-board">
+        <div id="user-label" class="badge"></div>
+        <div id="computer-label" class="badge"></div>
+        <!-- 最初のスコアを0:0と表示させる -->
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+        
+      </div>
+      <div class="result">
+        <p id="demo3" class="demo3">あいて</p>
+
+        <h3>しょうぶだ！</h3>
+      </div>
+
+      <div class="choices">
+        <!-- グー -->
+        <div class="choice" id="r">
+          <img src="https://2.bp.blogspot.com/-VhlO-Yfjy_E/Uab3z3RNJQI/AAAAAAAAUVg/fX8VnSVDlWs/s800/janken_gu.png" alt="" width="150px" height="150px">
+        </div>
+        <!-- チョキ -->
+        <div class="choice" id="s">
+          <img src="https://4.bp.blogspot.com/-__yEIXe5SxU/Uab3zO7BB2I/AAAAAAAAUVI/MYg6TVeiv-Y/s800/janken_choki.png" alt="" width="150" height="150">
+        </div>
+        <!-- パー -->
+        <div class="choice" id="p">
+          <img src="https://3.bp.blogspot.com/-qZtyoue9xKs/Uab30IG0Q5I/AAAAAAAAUVk/qnH8a2OgrvI/s800/janken_pa.png" alt="" width="150" height="150">
+        </div>
+      </div>
+      <div>
+        <p class="yourhand">あなたの手<br>すきな手をえらんでね</p>
+
+      </div>
+      <audio src="bgm/aiko.wav" id="audioaiko"></audio>
+      <audio src="bgm/kati.wav" id="audiokati"></audio>
+      <audio src="bgm/make.wav" id="audiomake"></audio>
+
+      <!-- http://www.vita-chi.net/sec/voi/chibikyara.htm から音をとってきた -->
+
+    <!-- ここにはhtmlを記述 -->
+
+
+    <!-- このコメントの行より下にjsフォルダのtest.jsを読み込みましょう🤗 1.授業でやります!-->
+    <!-- 授業でやる箇所 ↓-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <!-- jqueryは必ず先に書く！！ -->
+    <script src="js/test.js"></script>
+    <!-- 授業でやる箇所 ↑-->
+  </body>
+</html>

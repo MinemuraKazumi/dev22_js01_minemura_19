@@ -1,0 +1,143 @@
+/* google fontのasapから設定 */
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Open+Sans:wght@300&family=Otomanopee+One&display=swap');
+
+body{
+    background: #707044;
+    width: 1200px;
+    margin: 5px auto 5px auto;
+
+}
+
+header{
+    background: white;
+    padding: 10px;
+}
+/* haederの中のh1タグについて */
+header > h1{
+    color: #707044;
+    text-align: center;
+    font-family: Otomanopee One;
+    font-size: 40px;
+    /* 文字の幅方向の間隔を調整する */
+    letter-spacing: 50px;
+}
+
+h2{
+    text-align: center;
+    font-family: Otomanopee One;
+    font-size: 30px;
+}
+
+h3{
+    text-align: center;
+    font-family: Otomanopee One;
+    font-size: 30px;
+    /* 文字の幅方向の間隔を調整する */
+    letter-spacing: 10px;
+}
+
+.vs{
+    text-align: center;
+    font-family: Otomanopee One;
+    width: 1200px;
+    margin: 10px auto 5px auto;
+    color: white;
+    font-size: 20px;
+
+}
+
+/* スコアボード */
+.score-board{
+    margin: 20px auto 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 180px;
+    color: white;
+    font-size: 40px;
+    padding: 15px 20px;
+}
+
+
+
+.badge{
+    color: white;
+    font-size: 14px;
+    padding: 2px, 10px;
+    font-family: Otomanopee One;
+    position: absolute;
+
+}
+
+/* user idに対しての */
+#user-label{
+    position: absolute;
+    top: 110px;
+    left: 560px;
+    margin: auto;
+    font-size: 30px;
+}
+
+#computer-label{
+    position: absolute;
+    width: 200px;
+    top: 110px;
+    right: 555px;
+    font-size: 30px;
+
+}
+
+.result{
+    font-size: 40px;
+    color: white;
+    width: 1200px;
+    height: 150px;
+    text-align: center;
+
+
+}
+
+.result > P {
+    text-align: center;
+    font-weight: bold;
+    font-family: Otomanopee One;
+    margin: 20px auto 20px auto;
+    height: 150px;
+    font-size: 30px;
+    
+}
+
+
+
+.demo{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+/* 自分の手の画像（ぐー、チョキ、パーの全部） */
+.choices{
+    margin: 70px auto 20px auto;
+    text-align: center;
+    border: 2px solid white;
+}
+
+/* 自分の手の画像（ぐー、チョキ、パーの各々） */
+.choice{
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.yourhand{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: Otomanopee One;
+    font-size: 20px;
+    /* 文字の幅方向の間隔を調整する */
+    letter-spacing: 30px;
+}
