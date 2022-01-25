@@ -10,8 +10,8 @@ javascriptを用いてジャンケンアプリを作成しました。
 
 ３、参考にしたURL
 
-https://ict-skillup.com/javascript/1462/
+じゃんけんのデザイン方法(https://ict-skillup.com/javascript/1462/)
 
-https://arrown-blog.com/jquery-html5-tag/
+音の再生(https://arrown-blog.com/jquery-html5-tag/)
 
 ![top.png](./img/top.png)
