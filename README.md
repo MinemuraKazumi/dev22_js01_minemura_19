@@ -13,3 +13,5 @@ javascriptを用いてジャンケンアプリを作成しました。
 https://ict-skillup.com/javascript/1462/
 
 https://arrown-blog.com/jquery-html5-tag/
+
+.img/top.png
